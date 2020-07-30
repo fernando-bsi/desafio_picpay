@@ -1,4 +1,4 @@
-### PROJETO DE TESTES - api_picpay (Versão 1.0) ###
+### PROJETO DE TESTES - automacao_api (Versão 1.0) ###
 
 - Esse projeto tem como finalidade realizar testes simples em ruby utilizando a api do JSONPlaceholder (uma API REST on-line e gratuita onde se pode usar sempre que precisar de dados fakes.).
 - Nesse projeto será contemplado a automação de testes utilizando os verbos GET, POST, PUT, PATCH e DELETE.
@@ -38,4 +38,4 @@ O resultado deverá ser similar a frase abaixo:
 
 -  Adicionar e validar o grafico Allure
     - Biblioteca: 'allure-cucumber';
-    - Gerar graficos e relatórios das execuções dos testes;
+    - Gerar graficos e relatórios das execuções dos testes.
