@@ -36,4 +36,4 @@ Executar pelo terminal
     - source .env/bin/activate
  - Chamar os cenários:
     - Deverá ser realizado a chamada do locust apontando para o arquivo.py, segue abaixo o exemplo:
-    - locust -f dias-horarios.py --host="http://exchedule-api.azr-hml.dasaexp.io"
+    - locust -f common.py --host="hhttps://jsonplaceholder.typicode.com"
