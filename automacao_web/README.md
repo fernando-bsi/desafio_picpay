@@ -1,7 +1,6 @@
 ### PROJETO DE TESTES - automacao_web (Versão 1.0) ###
 
-- Esse projeto tem como finalidade realizar testes simples em ruby
-- Nesse projeto será contemplado a automação de testes utilizando a web
+- Nesse projeto mostra um pouco sobre testes automatizados para web, utilizando ruby e selenium webdriver.
 
 
 ### BIBLIOTECAS UTILIZADAS ###
