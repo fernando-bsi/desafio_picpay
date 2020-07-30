@@ -1,0 +1,15 @@
+## YAML Templatesss
+---
+default: -p ci -p html -p local
+
+pretty: --format pretty
+ci:  --format progress
+
+html:  --format html --out=results/report.html
+json:  --format json --out=results/report.json
+
+local: ENVIRONMENT=local --no-source --color -f pretty 
+hml: ENVIRONMENT=hml --no-source --color -f pretty
+prd: ENVIRONMENT=prd --no-source --color -f pretty
+
+allure: --format AllureCucumber::Formatter --out=test_report

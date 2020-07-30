@@ -1,0 +1,15 @@
+## YAML Templatesss
+---
+default: -p no_headless -p hml
+
+pretty: --format pretty
+ci:  --format progress
+
+html:  --format html --out=results/report.html
+json:  --format json --out=results/report.json
+
+hml:  ENVIRONMENT_TYPE=hml
+dev:  ENVIRONMENT_TYPE=dev
+
+headless:  HEADLESS=headless
+no_headless:  HEADLESS=no_headless
